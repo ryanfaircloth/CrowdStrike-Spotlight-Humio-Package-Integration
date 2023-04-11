@@ -5,6 +5,6 @@ updates:
     commit-message:
       prefix: "ci(actions): "
     directory: "/.github/workflows"
-    target-branch: "main"
+    target-branch: "next"
     schedule:
       interval: "daily"
