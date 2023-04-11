@@ -1,9 +1,9 @@
-Configuration File Explainations
+# Configuration File Explainations
 
-This client is powered by CrowdStrike's FalconPy SDK
-For more information on the SDK visit: https://github.com/CrowdStrike/falconpy
+# This client is powered by CrowdStrike's FalconPy SDK
+# For more information on the SDK visit: https://github.com/CrowdStrike/falconpy
 
-For information about the Spotlight API visit: https://falcon.crowdstrike.com/documentation/98/spotlight-apis 
+# For information about the Spotlight API visit: https://falcon.crowdstrike.com/documentation/98/spotlight-apis 
 
 
 [Logging]
