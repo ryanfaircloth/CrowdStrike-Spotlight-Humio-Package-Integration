@@ -67,6 +67,8 @@ jobs:
     name: Build Action
     needs:
       - meta
+    permissions:
+      packages: write
     steps:
       # To use this repository's private action,
       # you must check out the repository
