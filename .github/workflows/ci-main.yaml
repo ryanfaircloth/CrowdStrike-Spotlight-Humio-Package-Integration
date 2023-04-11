@@ -126,4 +126,4 @@ jobs:
             @google/semantic-release-replace-plugin
             conventional-changelog-conventionalcommits
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_ADMIN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
