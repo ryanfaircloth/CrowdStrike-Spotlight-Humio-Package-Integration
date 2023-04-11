@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.11.3-bullseye
 RUN update-ca-certificates
 ENV CONFIG_FILE /app/CrowdStrikeSpotlight2HumioConfig.ini
 ENV CHECKPOINT_FILE /data/checkpoint.ini
