@@ -167,6 +167,7 @@ def main():
             log_label + 'Paginiation has not been identified as being needed')
 
     # while necessary make additional paginiation calls and extend vulnerability list
+    total_vul_collected = 0
     while pagination_needed == True:
         try:
             if facets:
