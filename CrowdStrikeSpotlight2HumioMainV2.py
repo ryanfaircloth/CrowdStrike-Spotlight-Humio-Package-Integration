@@ -32,7 +32,8 @@ def main():
     cs_config = config['CrowdStrike']
 
     # client version
-    version = str(cs_config['client_version'])
+    __version__ = "2.0"
+    version = __version__
 
     # logging settings and construct log file timestamp
     starttime = datetime.utcnow()
